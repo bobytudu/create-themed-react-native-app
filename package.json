@@ -1,6 +1,6 @@
 {
   "name": "create-themed-react-native-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,6 +8,10 @@
     "web": "expo start --web"
   },
   "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobytudu/create-themed-react-native-app"
+  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-community/datetimepicker": "7.2.0",
