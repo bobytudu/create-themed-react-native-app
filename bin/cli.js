@@ -33,7 +33,7 @@ const repoName = process.argv[2];
 // const repoName = readlineSync.question("Enter the name of your new project: ");
 const authorName = readlineSync.question("Enter author's name: ");
 const authorEmail = readlineSync.question("Enter author's email: ");
-const checkoutCommand = `git clone https://github.com/bobytudu/create-themed-react ${repoName}`;
+const checkoutCommand = `git clone https://github.com/bobytudu/create-themed-react-native-app ${repoName}`;
 const installCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning repository with name ${repoName}`);
